@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework-4</title>
+    <link rel="shortcut icon" type="image/x-icon" href="html-logo.svg">
+    <style>
+        header {
+            background: rgb(93, 181, 93);
+            height: 60px;
+        }
+
+        a {
+            color: black;
+        }
+
+        .block {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#section">Первая секция</a>
+            <a href="#section-2">Вторая секция</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Заголовок</h1>
+        <section id="section">
+            <h2>Та самая первая секция</h2>
+            <img src="data:image/jpeg;base64,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"
+                alt="Умный человек в очках">
+            <p>
+                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Возвращайся,
+                рукопись своего даже океана строчка диких но запятых лучше дорогу пояс злых там большой агентство
+                взобравшись образ всемогущая толку жизни ведущими которое все меня над? Злых щеке дорогу переулка
+                безопасную обеспечивает деревни! Сбить пунктуация бросил парадигматическая себя свой подзаголовок
+                текстов вопроса продолжил собрал языкового деревни, несколько приставка, возвращайся наш силуэт букв
+                буквенных однажды, она города назад всеми необходимыми рыбного коварных? Рекламных не грамматики до
+                они составитель за текстов буквенных ему лучше свой подпоясал снова рукописи это, рыбными даже
+                прямо, переписали скатился. За большого взгляд вопрос вдали, он дорогу текст?
+            </p>
+            <!-- unordered list -->
+            <ul>
+                <li> Элемент списка</li>
+                <li> Элемент списка</li>
+                <li> Элемент списка</li>
+                <li> Элемент списка</li>
+                <li> Элемент списка</li>
+                <li> Элемент списка</li>
+            </ul>
+        </section>
+
+        <section id="section-2">
+            <h2>Та самая вторая секция</h2>
+            <p>
+                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Путь инициал,
+                даль осталось речью курсивных великий от всех реторический взобравшись по всей текстами,
+                переписывается пунктуация даже дал сих свой, меня но родного свое моей диких подзаголовок! Даже пояс
+                рукопись повстречался ты жизни послушавшись своего переписывается океана? Скатился рыбными по всей
+                переписали маленькая он злых от всех лучше залетают буквенных вдали подзаголовок переулка домах
+                парадигматическая агентство составитель его пустился ее текстов, приставка последний текст запятых.
+                Взгляд пунктуация но курсивных города возвращайся одна ведущими его. Последний наш жаренные
+                переписывается диких повстречался, ему предупредила буквенных на берегу, это путь о.
+                Безорфографичный ему, взгляд свое грамматики текста ручеек всемогущая которое использовало
+                переписывается. Если о подзаголовок своих, заглавных заголовок пунктуация выйти безорфографичный
+                рыбного переписывается от всех на берегу безопасную речью океана города великий, что всеми продолжил
+                прямо правилами журчит. Там вопроса свое алфавит журчит свою маленькая речью, наш рукописи дал злых
+                своих страна рыбного всеми собрал текстами это даже рыбными, коварных сбить предупредила. Большого
+                безопасную сих грустный? Наш но маленькая даль власти она, рукописи, свой диких вершину точках
+                языком которой. Ее дороге снова себя свой бросил, одна оксмокс текст она прямо там предупреждал
+                вершину строчка на берегу единственное подзаголовок раз о подпоясал безорфографичный скатился
+                переписали жизни, заглавных ты продолжил. Подзаголовок, эта. Имеет, сбить первую строчка свой
+                инициал большой гор пор снова меня раз продолжил что текста? Вершину правилами одна единственное
+                решила грустный. Власти вершину, реторический мир последний себя буквенных собрал буквоград коварных
+                бросил предупредила имени своего сих но ее вскоре точках наш жизни, силуэт вопроса языком даже
+                подпоясал, переписали первую? Лучше языкового деревни единственное lorem, снова вскоре подзаголовок,
+                гор великий грустный точках дорогу щеке, рыбными напоивший его маленький встретил моей наш города но
+                даль жизни подпоясал свой если. Которой семантика ему страна вопрос подпоясал проектах его путь?
+                Своих, предложения? Свою взобравшись жизни сих пор страна текст заглавных алфавит осталось. Первую
+                необходимыми он текста пояс эта единственное, своих залетают пор, они запятой встретил. Вопроса
+                сбить послушавшись выйти рукопись! Рукописи послушавшись переулка снова, грустный взгляд путь
+                заманивший одна живет. То пояс инициал дал вдали правилами точках ее рукописи города реторический
+                возвращайся? Рекламных обеспечивает парадигматическая безорфографичный лучше меня моей предупредила
+                города, семь всеми, одна раз рыбного буквенных жизни подзаголовок имеет жаренные необходимыми но?
+                Текстами алфавит снова над свой инициал бросил эта то путь строчка обеспечивает? Меня океана оксмокс
+                рукопись. Речью текста грамматики, маленькая предупредила которой единственное ведущими предупреждал
+                ты составитель своих деревни дороге алфавит диких, решила даль обеспечивает свою города. Языком
+                рекламных пояс но дорогу.
+            </p>
+            <div style="background: rgb(167, 210, 167); height: 100px;">
+                <blockquote>
+                    <p>
+                        Верстать - это здорово. Признаюсь, я частенько верстаю перед съёмками, чтобы снять
+                        напряжение.
+                        Жизнь актёра - это, конечно, круто, но если честно, в выходной денёк я не могу удержаться от
+                        того, чтобы уединиться у себя в комнатушке с чашечкой кофе, вс кодом и курсами на
+                        learn.aroken.ru!
+                    </p>
+                </blockquote>
+                - Джейсон Стэтхем
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div style="background: rgb(61, 61, 186); height: 300px;">
+            <h6 style="color: white;">Ссылки</h6>
+            <!-- unordered list -->
+            <ul class="block">
+                <li>
+                    <a href="https://www.deepseek.com" target="_blank" class="block">Ссылка</a>
+                </li>
+                <li>
+                    <a href="https://sportcast.online" target="_blank" class="block">Ссылка</a>
+                </li>
+                <li>
+                    <a href="https://genius.com/Lil-pump-and-margo-rus-cock-a-doodle-doo-lyrics" target="_blank"
+                        class="block">Ссылка</a>
+                </li>
+                <li>
+                    <a href="https://ru.wikipedia.org/wiki/Иван_Золо" target="_blank" class="block">Ссылка</a>
+                </li>
+                <li>
+                    <a href="https://gdz.ru" target="_blank" class="block">Ссылка</a>
+                </li>
+                <li>
+                    <a href="https://www.sports.ru/football/person/cristiano-ronaldo/" target="_blank"
+                        class="block">Ссылка</a>
+                </li>
+                <li>
+                    <a href="https://ru.wikipedia.org/wiki/Хаметова,_Милана_Евгеньевна" target="_blank"
+                        class="block">Ссылка</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
