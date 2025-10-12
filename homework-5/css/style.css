@@ -21,6 +21,8 @@
     word-spacing: 30px;
     text-decoration: overline;
     text-decoration-style: wavy;
+    text-shadow: rgb(180, 80, 153) 1px 0 1px;
+    text-decoration-color: #000;
 }
 
 .text-2 {
