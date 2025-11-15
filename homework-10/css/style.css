@@ -1,0 +1,40 @@
+.quart {
+    height: 500px;
+    width: 500px;
+    border: 2px solid #000;
+    border-style: dashed;
+    position: relative;
+    left: 33%;
+    top: 20%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex__blue {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    transform: translate(300px, 0);
+    border: 3px solid #000;
+    border-style: dashed;
+}
+
+.flex__red {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transform: translate(0, 400px);
+    border: 3px solid #000;
+    border-style: dashed;
+}
+
+.flex__green {
+    width: 100px;
+    height: 100px;
+    background: green;
+    transform: translate(-200px, 50px) rotate(30deg);
+    border: 3px solid #000;
+    border-style: dashed;
+}
