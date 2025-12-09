@@ -1,0 +1,77 @@
+body {
+  font-family: sans-serif;
+}
+
+form {
+  margin: 20px;
+  width: 400px;
+  background-color: rgb(38, 229, 229);
+}
+
+fieldset {
+  border-radius: 5px;
+}
+
+.container {
+  margin-left: 10px;
+}
+
+.form-name,
+.form-age,
+.form-tel,
+.form-email,
+.form-message,
+.form-button {
+  display: block;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 20px;
+  padding: 3px 8px;
+}
+
+.form-name {
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.form-age {
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.form-tel {
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.form-email {
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.form-message {
+  margin-bottom: 10px;
+  min-height: 30px;
+  max-height: 200px;
+  width: 300px;
+  resize: vertical;
+}
+
+.form-checkbox {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.name,
+.age,
+.tel,
+.email,
+.message {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.form-button {
+  cursor: pointer;
+  background-color: rgb(148, 202, 148);
+}

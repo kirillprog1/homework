@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Домашняя работа (форма)</title>
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <form class="form">
+      <fieldset class="fieldset">
+        <div class="container">
+          <h2 class="title">Ваши личные данные</h2>
+          <label>
+            <span class="name">Ваше имя</span>
+            <input
+              class="form-name"
+              type="text"
+              name="name"
+              required
+              placeholder="Имя"
+            />
+          </label>
+          <label>
+            <span class="age">Ваш возраст</span>
+            <input
+              class="form-age"
+              type="number"
+              name="age"
+              required
+              placeholder="Возраст"
+            />
+          </label>
+          <label>
+            <span class="tel">Ваш номер телефона</span>
+            <input
+              class="form-tel"
+              type="tel"
+              name="phone"
+              required
+              placeholder="Номер телефона"
+            />
+          </label>
+          <label>
+            <span class="email">Ваша почта</span>
+            <input
+              class="form-email"
+              type="email"
+              name="email"
+              required
+              placeholder="Почта"
+            />
+          </label>
+          <label>
+            <span class="message">Сообщение</span>
+            <textarea
+              class="form-message"
+              name="message"
+              name="message"
+              required
+              placeholder="Ваше сообщение"
+            ></textarea>
+          </label>
+          <label>
+            <input
+              class="form-checkbox"
+              type="checkbox"
+              name="checkbox"
+              required
+            />
+            Я принимаю правила
+          </label>
+          <button class="form-button" type="submit">Отправить</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
