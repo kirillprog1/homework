@@ -1,0 +1,29 @@
+:root {
+  /* font-family */
+  --font-family: "Satoshi", sans-serif;
+  --second-family: "FONTSPRING-DEMO-Integral-CF-Heavy", sans-serif;
+  --third-family: "Integral-CF", sans-serif;
+  --fourth-family: "Inter", sans-serif;
+
+  /* colors */
+  --main-color: #fff;
+  --secondary-color: #000;
+  --thirdly-color: #f0f0f0;
+  --cards-color: #f0eeed;
+  --sales-color: rgba(255, 51, 51, 0.1);
+
+
+  /* container */
+  --container-width: 1240px;
+  --container-padding: 15px;
+
+  /* transitions */
+  --transition-time: 0.4s;
+
+  /* layers */
+  --layer-negative: -1;
+  --layer-0: 0;
+  --layer-1: 1;
+  --layer-2: 2;
+  --layer-3: 3;
+}

@@ -1,0 +1,253 @@
+
+
+.styles__container {
+  border-radius: 40px;
+  background-color: var(--thirdly-color);
+  height: auto;
+}
+
+.styles__title {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 70px 0 64px;
+}
+
+.styles__card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
+  grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: 1fr 20px 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  padding: 0 64px 76px;
+}
+
+.styles__card > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.styles__card > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.styles__card > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+
+.styles__card > *:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 7;
+}
+
+.styles__card > *:nth-child(5) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 9;
+}
+
+.styles__card > *:nth-child(6) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 11;
+}
+
+.styles__card > *:nth-child(7) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 13;
+}
+
+.styles__card > *:nth-child(8) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 15;
+}
+
+.styles__card > *:nth-child(9) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 17;
+}
+
+.styles__card > *:nth-child(10) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 19;
+}
+
+.styles__card > *:nth-child(11) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 21;
+}
+
+.styles__card > *:nth-child(12) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 23;
+}
+
+.styles__card > *:nth-child(13) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+
+.styles__card > *:nth-child(14) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+
+.styles__card > *:nth-child(15) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+}
+
+.styles__card > *:nth-child(16) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 7;
+}
+
+.styles__card > *:nth-child(17) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 9;
+}
+
+.styles__card > *:nth-child(18) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 11;
+}
+
+.styles__card > *:nth-child(19) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 13;
+}
+
+.styles__card > *:nth-child(20) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 15;
+}
+
+.styles__card > *:nth-child(21) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 17;
+}
+
+.styles__card > *:nth-child(22) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 19;
+}
+
+.styles__card > *:nth-child(23) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 21;
+}
+
+.styles__card > *:nth-child(24) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 23;
+}
+
+.styles__card-item {
+  position: relative;
+}
+
+.styles__card-item--1 {
+  -ms-grid-column-span: 5;
+  grid-column: span 5;
+}
+
+.styles__card-item--2 {
+  -ms-grid-column-span: 7;
+  grid-column: span 7;
+}
+
+.styles__card-item--3 {
+  -ms-grid-column-span: 7;
+  grid-column: span 7;
+}
+
+.styles__card-item--4 {
+  -ms-grid-column-span: 5;
+  grid-column: span 5;
+}
+
+.styles__card-title {
+  position: absolute;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--secondary-color);
+  left: 36px;
+  top: 25px;
+}
+
+.styles__card-img {
+  border-radius: 20px;
+  height: 289px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (width <= 1024px) {
+  .styles__card-title {
+    font-size: 30px;
+    left: 30px;
+  }
+}
+
+@media (width <= 880px) {
+  .styles__card-title {
+    font-size: 28px;
+    left: 26px;
+  }
+}
+
+@media (width <= 768px) {
+  .styles__card-item--1 {
+    -ms-grid-column-span: 12;
+    grid-column: span 12;
+  }
+
+  .styles__card-item--2 {
+    -ms-grid-column-span: 12;
+    grid-column: span 12;
+  }
+
+  .styles__card-item--3 {
+    -ms-grid-column-span: 12;
+    grid-column: span 12;
+  }
+
+  .styles__card-item--4 {
+    -ms-grid-column-span: 12;
+    grid-column: span 12;
+  }
+
+  .styles__title {
+    font-size: 38px;
+  }
+
+  .styles__card-img--sporty {
+    width: 100%;
+  }
+}
+
+@media (width <= 576px) {
+  .styles__container {
+    border-radius: 20px;
+  }
+  .styles__card {
+    padding: 0 24px 27px;
+    gap: 16px;
+  }
+  .styles__title {
+    font-size: 30px;
+    line-height: 120%;
+    padding: 40px 60px 28px;
+  }
+
+  .styles__card-title {
+    font-size: 24px;
+    left: 24px;
+    top: 16px;
+  }
+  .styles__card-img {
+    height: 190px;
+  }
+}

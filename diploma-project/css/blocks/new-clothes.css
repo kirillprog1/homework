@@ -1,0 +1,268 @@
+
+
+.new-clothes__container {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.new-clothes__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.new-clothes__title {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 72px;
+  padding-bottom: 55px;
+}
+
+.new-clothes__img {
+  border-radius: 20px;
+  background: var(--cards-color);
+  width: 295px;
+  height: 298px;
+}
+
+.new-clothes__cards-item-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--secondary-color);
+  padding: 16px 0 8px;
+}
+
+.new-clothes__cards-item-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 13px;
+}
+
+.new-clothes__cards-item-num {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+.new-clothes__cards-item-num-accent {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.new-clothes__cards-item-sum {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--secondary-color);
+  padding-top: 8px;
+}
+
+.new-clothes__cards-item-prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+}
+
+.new-clothes__cards-item-sum--old {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  text-decoration: line-through;
+  color: rgba(191, 146, 146, 0.851);
+  -webkit-text-decoration-color: currentColor;
+          text-decoration-color: currentColor;
+}
+
+.new-clothes__cards-item-prices-sale {
+  border-radius: 62px;
+  padding: 6px 14px;
+  width: 58px;
+  height: 28px;
+  background: rgba(255, 51, 51, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.new-clothes__cards-item-prices-sale-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  color: #f33;
+}
+
+.new-clothes__button {
+  margin-top: 36px;
+  margin-bottom: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.new-clothes__button-inner {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 62px;
+  padding: 16px 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform var(--transition-time);
+  transition: -webkit-transform var(--transition-time);
+  -o-transition: transform var(--transition-time);
+  transition: transform var(--transition-time);
+  transition: transform var(--transition-time), -webkit-transform var(--transition-time);
+}
+
+@media (any-hover: hover) {
+  .new-clothes__button-inner:hover {
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+
+.new-clothes__button-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--secondary-color);
+}
+
+@media (width <= 1280px) {
+  .new-clothes__cards-item--4 {
+    display: none;
+  }
+}
+@media (width <= 995px) {
+  .new-clothes__cards-item--3 {
+    display: none;
+  }
+}
+
+@media (width <= 642px) {
+  .new-clothes__title {
+    font-size: 28px;
+    padding-top: 42px;
+    padding-bottom: 32px;
+  }
+  .new-clothes__img {
+    border-radius: 13px;
+    width: 173px;
+    height: 200px;
+  }
+
+  .new-clothes__cards-item-title {
+    font-size: 15px;
+    padding: 11px 0 5px;
+  }
+
+  .new-clothes__cards-item-icon {
+    width: 15px;
+    height: 14px;
+  }
+
+  .new-clothes__cards-item-icon--half {
+    width: 8px;
+    height: 14px;
+  }
+
+  .new-clothes__cards-item-num {
+    font-size: 12px;
+  }
+
+  .new-clothes__cards-item-sum,
+  .new-clothes__cards-item-sum--old {
+    font-size: 18px;
+  }
+
+  .new-clothes__cards-item-prices-sale {
+    border-radius: 62px;
+    padding: 6px 14px;
+    width: 40px;
+    height: 20px;
+  }
+
+  .new-clothes__cards-item-prices-sale-text {
+    font-size: 10px;
+  }
+
+  .new-clothes__cards {
+    gap: 10px;
+  }
+
+  .new-clothes__cards-item-prices {
+    gap: 5px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .new-clothes__button-inner {
+    width: 100%;
+  }
+
+  .new-clothes__button {
+    margin-top: 27px;
+    margin-bottom: 50px;
+  }
+}

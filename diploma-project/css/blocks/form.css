@@ -1,0 +1,200 @@
+
+.form {
+  -webkit-transform: translateY(50%);
+      -ms-transform: translateY(50%);
+          transform: translateY(50%);
+  z-index: 1;
+}
+
+.form__container {
+  height: auto;
+  border-radius: 20px;
+  padding: 36px 64px;
+  background: var(--secondary-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+}
+
+.form__title {
+  font-family: var(--second-family);
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 113%;
+  color: var(--main-color);
+  text-transform: uppercase;
+  width: 500px;
+}
+
+.form__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 14px;
+}
+
+.form__items-mail {
+  border-radius: 62px;
+  padding: 12px 16px;
+  width: 349px;
+  height: 48px;
+  border: none;
+  background-color: var(--main-color);
+}
+
+.form__items-mail::-webkit-input-placeholder {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.4);
+  padding-left: 40px;
+}
+
+.form__items-mail::-moz-placeholder {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.4);
+  padding-left: 40px;
+}
+
+.form__items-mail:-ms-input-placeholder {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.4);
+  padding-left: 40px;
+}
+
+.form__items-mail::-ms-input-placeholder {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.4);
+  padding-left: 40px;
+}
+
+.form__items-mail::placeholder {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.4);
+  padding-left: 40px;
+}
+
+.form__items-button {
+  border-radius: 62px;
+  padding: 12px 16px;
+  width: 349px;
+  height: 46px;
+  background-color: var(--main-color);
+  -webkit-transition: -webkit-transform var(--transition-time);
+  transition: -webkit-transform var(--transition-time);
+  -o-transition: transform var(--transition-time);
+  transition: transform var(--transition-time);
+  transition: transform var(--transition-time), -webkit-transform var(--transition-time);
+}
+
+@media (any-hover: hover) {
+  .form__items-button:hover {
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+
+.form__items-button-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--secondary-color);
+}
+
+.form__items-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.form__items-input-wrapper {
+  position: relative;
+}
+
+.form__items-icon {
+  position: absolute;
+  text-align: center;
+  left: 16px;
+  top: 14px;
+}
+
+@media (width <= 1024px) {
+  .form__container {
+    gap: 32px;
+  }
+}
+
+@media (width <= 642px) {
+  .form__title {
+    font-size: 30px;
+    width: 300px;
+  }
+
+  .form__items-mail::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+
+  .form__items-mail::-moz-placeholder {
+    font-size: 14px;
+  }
+
+  .form__items-mail:-ms-input-placeholder {
+    font-size: 14px;
+  }
+
+  .form__items-mail::-ms-input-placeholder {
+    font-size: 14px;
+  }
+
+  .form__items-button-text,
+  .form__items-mail::placeholder {
+    font-size: 14px;
+  }
+}
+
+@media (width <= 576px) {
+  .form__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 32px 24px;
+  }
+
+  .form__items-button,
+  .form__items-mail {
+    width: 300px;
+  }
+}

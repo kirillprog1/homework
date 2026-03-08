@@ -1,0 +1,33 @@
+
+.page {
+  box-sizing: border-box;
+}
+
+.page__body {
+  min-width: 375px;
+  background-color: var(--main-color);
+}
+
+.page__body--no-scroll {
+  overflow-y: hidden;
+}
+
+.container {
+  width: min(var(--container-width), 100% - var(--container-padding) * 2);
+  margin-inline: auto;
+}
+
+
+.logo-font {
+  font-family: var(--third-family);
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--secondary-color);
+}
+
+.title-second {
+  font-family: var(--second-family);
+  font-weight: 900;
+  font-size: 48px;
+  color: var(--secondary-color);
+}
